@@ -1,0 +1,38 @@
+name: final_project
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bgimages/Motivation.jpg
+    - assets/images/bgimages/Romance.jpg
+    - assets/images/bgimages/Finance.jpg
+    - assets/images/bgimages/Happiness.jpg
+    - assets/images/authors/Oscar_Wilde.jpg
+    - assets/images/authors/Ken_Poirot.png 
+    - assets/images/authors/Winston_Churchill.jpg
+    - assets/images/authors/Kevin_Durant.png 
+    - assets/images/authors/Warren_Buffett.jpg
+    - assets/images/authors/Robert_Kiyosaki.jpg  
+    - assets/images/authors/Christian_Dior.jpg
+    - assets/images/authors/Aristotle.jpg
